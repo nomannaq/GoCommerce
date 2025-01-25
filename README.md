@@ -19,28 +19,3 @@
 
 ## Project Structure
 
-```
-/ecommerce-api
-├── Dockerfile
-├── docker-compose.yml
-├── go.mod
-├── .env
-├── main.go
-├── /config                    # Configuration setup
-│   └── config.go
-├── /db                        # Database setup
-│   └── db.go
-├── /models                    # Database models
-│   ├── user.go
-│   └── product.go
-├── /controllers               # API handlers/controllers
-│   ├── user_controller.go
-│   └── product_controller.go
-├── /middleware                # Middleware for authentication/authorization
-│   ├── auth.go
-└── /utils                     # Utility functions
-    ├── hash.go
-    └── jwt.go
-```
-
-Feel free to submit issues or 
